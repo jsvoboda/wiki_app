@@ -1,0 +1,6 @@
+<h2>Banana Man welcomes you.</h2>
+<ul>
+<% @posts.each do |post|  %>
+	<li><%= post.title %> | <%= post.content %></li>
+<% end %>
+</ul>
